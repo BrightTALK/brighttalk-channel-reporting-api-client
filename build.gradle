@@ -26,7 +26,7 @@ apply plugin: 'maven'
 apply plugin: 'distribution'
 
 // project.name - Defined in settings.gradle as Gradle defaults it to name of project dir and makes it read-only  
-project.version = '1.0.0-beta1'
+project.version = '1.0.0-beta2'
 project.group = 'com.brighttalk.channels'
 
 eclipse.classpath.downloadJavadoc = true // defaults to 'false'
