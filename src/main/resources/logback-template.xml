@@ -30,7 +30,7 @@
   </root>
   
   <!-- Logger for BrightTALK Channel owner reporting API client -->
-  <logger name="com.neiljbrown.brighttalk.channels.reportingapi.client" level="INFO" additivity="false">
+  <logger name="com.brighttalk.channels.reportingapi.client" level="INFO" additivity="false">
     <appender-ref ref="STDOUT" />
   </logger>      
 

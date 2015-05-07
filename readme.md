@@ -12,7 +12,7 @@ provided.
 The source code is made available under the [Apache License 2.0](http://en.wikipedia.org/wiki/Apache_License). 
 
 ## Downloads
-A 'binary' distribution of the API client is available for [download](https://github.com/neiljbrown/brighttalk-channel-reporting-api-client/releases) in both tar.gz and zip formats, for each release. The distribution includes a classses JAR, supporting 
+A 'binary' distribution of the API client is available for [download](https://github.com/BrightTALK/brighttalk-channel-reporting-api-client/releases) in both tar.gz and zip formats, for each release. The distribution includes a classses JAR, supporting 
 source and javadoc JARs, and the necessary configuration files.   
   
 The JAR files are _not_ currently published to a public repository. Support for this will be added in the future, with a 
@@ -87,7 +87,7 @@ classes, e.g.
 <pre>
   @Configuration  
   // Include beans packaged with BrightTALK reporting API client, to get a fully configured instance of ApiClient  
-  @Import(com.neiljbrown.brighttalk.channels.reportingapi.client.spring.AppConfig.class)  
+  @Import(com.brighttalk.channels.reportingapi.client.spring.AppConfig.class)  
   ...  
   public class IntegrationConfig {  
     ...  
@@ -102,7 +102,7 @@ If your application uses Spring XML bean config, you can enable processing of Sp
   &lt;!-- Enable processing of Spring annotations such as @Configuration -->
   &lt;context:annotation-config/>
   &lt;!-- Include beans packaged with BrightTALK reporting API client, to get a fully configured instance of ApiClient -->
-  &lt;bean class="com.neiljbrown.brighttalk.channels.reportingapi.client.spring.AppConfig"/>  
+  &lt;bean class="com.brighttalk.channels.reportingapi.client.spring.AppConfig"/>  
   ...
 &lt;/beans>
 </pre>
