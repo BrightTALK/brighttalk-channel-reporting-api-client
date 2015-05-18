@@ -3,11 +3,11 @@
 [![Build Status](https://travis-ci.org/BrightTALK/brighttalk-channel-reporting-api-client.svg?branch=master)](https://travis-ci.org/BrightTALK/brighttalk-channel-reporting-api-client)
 
 ## Overview
-This project contains the source code and releases of an API client for [BrightTALK's](https://www.brighttalk.com/) 
-Channel Owner Reporting API.
+This project contains the source code and releases of an API client for 
+[BrightTALK's Channel Reporting API](http://developer.brighttalk.com/channel-reporting-apis/).
 
-The API client is specified in Java. A production-ready implementation, built using the Spring framework, is also 
-provided.  
+The API client is specified in Java. A production-ready implementation, built using Java and the Spring framework, is 
+also provided.  
 
 The source code is made available under the [Apache License 2.0](http://en.wikipedia.org/wiki/Apache_License). 
 
@@ -42,10 +42,17 @@ example, to use the native SLF4J binding logback, add the following to your clas
 
 * ch.qos.logback:logback-classic:1.1.2  
 
-## API Docs
-If you wish to familiarise yourself with the code, good places to start are the Javadoc for the [ApiClient] interface 
-and its Spring implementation [SpringApiClientImpl]. (Javadoc is currently included in the binary distribution. It 
-will be made available online in the future).
+## API Client Docs
+If you wish to familiarise yourself with the API client code, good places to start are the [Javadoc] for the ApiClient 
+interface and its Spring implementation SpringApiClientImpl. (Javadoc is currently included in the binary distribution. 
+It will be made available online in the future).
+
+## Reporting API Docs
+An overview of the reporting APIs can be found on the [Channel Reporting APIs page on developer.brighttalk.com](http://developer.brighttalk.com/channel-reporting-apis/).
+
+A definitive specification of the latest release of the reporting APIs is provided in the 
+[Channel Owner Reporting APIs Technical Specification](https://docs.google.com/document/d/1gqWbVc51IKN2hUKuyBDZw1J2SlhACGYUWzmxIN1WcX8/edit).
+*Note* - See the API client release notes for details of the latest, currently supported release of the reporting APIs.  
 
 ## Automated Tests
 Unit tests are implemented in JUnit (4) and Hamcrest and can be found in the project's src/test/java folder.
